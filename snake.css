@@ -1,0 +1,64 @@
+body{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:1.5rem;
+}
+
+.game-over {
+    background-color: black;
+    opacity: 6;
+  }
+
+.btn {
+    cursor: pointer;
+    padding: 8px 12px;
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:bold;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    border-radius:1rem;    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+  
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+  
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+  
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+footer{
+    text-align: center;
+    color: gray;
+    font-size:10px;
+}
+
+.bt{
+    margin:1rem 0;
+}
+
+.arr{
+    margin:1rem;
+}
